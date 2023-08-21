@@ -1,0 +1,22 @@
+*****************************************************************************************
+********************Lunar Lander Deep Q-Learning*****************************************
+*****************************************************************************************
+
+
+
+Lunar Lander Deep Q-Learning
+This project demonstrates the use of Deep Q-Learning with Experience Replay to train an agent to safely land a lunar lander on a landing pad in the OpenAI Gym Lunar Lander environment.
+
+Instructions
+Install the required packages using pip install -r requirements.txt.
+Run the train_lunar_lander.py script to train the agent. The trained model will be saved as lunar_lander_model.h5.
+Run the test_lunar_lander.py script to see the trained agent in action and generate a video of its performance.
+Files
+train_lunar_lander.py: Script to train the agent using Deep Q-Learning.
+test_lunar_lander.py: Script to test the trained agent and generate a video.
+utils.py: Helper functions and classes for training and testing.
+requirements.txt: List of required packages.
+Notes
+The training process may take several minutes to complete.
+The trained model will be saved as lunar_lander_model.h5.
+The videos folder will contain videos of the agent's performance.
